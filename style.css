@@ -120,11 +120,15 @@
     max-width: 25rem;
     background-color: var(--color-1);
     border: 1px solid var(--color-3);
+    border-radius: 1rem;
     color: var(--color-5);
-
     padding: 1rem;
 
-    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    
 }
 
 .extension-data {
@@ -147,6 +151,12 @@
 
 #remove-extension-button:hover {
     cursor: pointer;
+}
+
+.extension-data {
+    display: flex;
+    gap: 1rem;
+    
 }
 
 .extension-data img {
