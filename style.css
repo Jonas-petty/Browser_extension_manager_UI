@@ -148,3 +148,11 @@
 #remove-extension-button:hover {
     cursor: pointer;
 }
+
+.extension-data img {
+    background-color: rgb(173, 226, 228);
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
