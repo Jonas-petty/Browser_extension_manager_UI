@@ -10,16 +10,25 @@
 }
 
 :root {
-    --color-1: #2f3450;
-    --color-2: #ff5d5d;
-    --color-3:  #0a0e31;
-    --color-4: #0f1549;
-    --color-5: #EEE;
-    --color-6: #4a5177;
+    /* Base colors */
+        --main-color: #eb625d;
+    /* Light Theme */
+    --color-1: #fbfdff;
+    --color-2: #ECF3FE;
+    --color-2_2: #EDF7F4;
+    --color-3: #EEEEEE;
+    --font-color: #040B1B;
+    /* Dark Theme */
+    --dark-color-1: #1F2535;
+    --dark-color-2: #040B1B;
+    --dark-color-2_2: #0A153D;
+    --dark-color-3: #2E3446;
+    --dark-font-color: #ECF3FE;
+
 }
 
 #body {
-    background: linear-gradient(var(--color-3), var(--color-4));
+    background: linear-gradient(var(--color-2), var(--color-2_2));
 }
 
 .container {
@@ -75,7 +84,7 @@
     color: var(--color-5);
     background-color: var(--color-1);
     border-radius: 2rem;
-    border: 1px solid var(--color-6);
+    border: 1px solid var(--color-3);
     
 }
 
@@ -85,9 +94,9 @@
 
 #nav .pill-button-active {
     padding: 0.5rem 1rem;
-    background-color: var(--color-2);
-    border: 1px solid var(--color-2);
-    color: var(--color-3)
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: var(--color-2)
 }
 
 #extensions-container {
@@ -100,7 +109,7 @@
 .extension {
     max-width: 25rem;
     background-color: var(--color-1);
-    border: 1px solid var(--color-6);
+    border: 1px solid var(--color-3);
     color: var(--color-5);
 
     padding: 1rem;
