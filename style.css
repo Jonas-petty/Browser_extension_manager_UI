@@ -7,6 +7,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    transition: .5s;
 }
 
 :root {
@@ -31,19 +32,32 @@
     background: linear-gradient(var(--color-2), var(--color-2_2));
 }
 
+.container,
+#nav,
+#extensions-container,
+.extension {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
 .container {
     padding: 1rem;
 }
 
-#header, .logo-container {
+#header, 
+.logo-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 #header {
+    width: 100%;
     background-color: var(--color-1);
-    padding: 1rem;
+    padding: .5rem;
     border-radius: .8rem;
 }
 
@@ -52,7 +66,7 @@
     color: var(--color-5);
 }
 
-#theme-switcher {
+#theme-switcher {   
     background-color: var(--color-3); 
     border: 1px solid var(--color-3);
     padding: .4rem;
@@ -63,10 +77,6 @@
 }
 
 #nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     margin: 1rem;
 }
 
@@ -84,12 +94,12 @@
 }
 
 #nav h2 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     color: var(--color-5);
 }
 
 #nav .pill-button {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding: 0.5rem 1rem;
     color: var(--color-5);
     background-color: var(--color-1);
@@ -110,25 +120,19 @@
 }
 
 #extensions-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 1rem;
 }
 
 .extension {
-    max-width: 25rem;
+    width: 100%;
     background-color: var(--color-1);
     border: 1px solid var(--color-3);
     border-radius: 1rem;
     color: var(--color-5);
     padding: 1rem;
 
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
-    
+    align-items: normal;
+    gap: 2rem;  
 }
 
 .extension-data {
@@ -165,4 +169,8 @@
     height: 3.5rem;
     padding: 1rem;
     border-radius: .5rem;
+}
+
+input[type=checkbox] {
+    accent-color: var(--main-color);
 }
