@@ -174,3 +174,27 @@
 input[type=checkbox] {
     accent-color: var(--main-color);
 }
+
+/* Desktop styles */
+
+@media (min-width: 992px){
+    .container {
+        max-width: 80%;
+    }
+
+    .navbar-container,
+    #nav {
+        width: 100%;
+    }
+
+    #nav {
+        max-width: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #nav ul  {
+        width: auto;
+    }
+}
