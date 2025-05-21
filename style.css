@@ -182,8 +182,20 @@ input[type=checkbox] {
         max-width: 80%;
     }
 
+    #extensions-container {
+        max-width: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .extension {
+        max-width: 30%;
+    }
+
     .navbar-container,
-    #nav {
+    #nav,
+    main,
+    #extensions-container  {
         width: 100%;
     }
 
