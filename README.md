@@ -30,8 +30,8 @@ Built with just HTML and CSS, the UI simulates the control panel of a browser ex
 
 Feel free to connect:
 
--   🌐 Portfolio: [jonasfelix.dev](https://jonasfelix.dev)
--   💼 LinkedIn: [linkedin.com/in/jonasfelix](https://www.linkedin.com/in/jonasfelix)
+-   🌐 Portfolio: [https://jonasfelix.netlify.app/](https://jonasfelix.netlify.app/)
+-   💼 LinkedIn: [https://www.linkedin.com/in/jonas-felix-dev/](https://www.linkedin.com/in/jonas-felix-dev/)
 -   📧 Email: \[[jonasfelixdesouza21@gmail.com](mailto:jonasfelixdesouza21@gmail.com)]
 
 ## 🙌 Acknowledgments
