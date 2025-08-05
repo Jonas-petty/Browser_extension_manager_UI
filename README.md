@@ -1,13 +1,39 @@
-# Browser Extension Manager UI
+# 🔧 Browser Extension Manager UI
 
-A Browser extension manager UI based on Frontend Mentor Challenge.
+This project is a **user interface for managing browser extensions** in a sleek and intuitive way.  
+Built with just HTML and CSS, the UI simulates the control panel of a browser extension manager, offering a clean layout for organizing and displaying extensions.
 
-## Using only:
+🌐 **Live Demo:** [jonas-petty.github.io/Browser_extension_manager_UI](https://jonas-petty.github.io/Browser_extension_manager_UI/)
 
-- HTML
-- CSS
-- JavaScript
+---
 
-## You can see it running here:
+## 📸 Preview
 
-URL will be added once the project is finished.
+| Desktop                               | Mobile                               |
+| ------------------------------------- | ------------------------------------ |
+| ![UI Preview](img/readme_desktop.png) | ![UI Preview](img/readme_mobile.png) |
+
+---
+
+## ✨ Features
+
+-   Beautiful and responsive UI
+-   Simulated extension management interface
+-   Fast and lightweight frontend
+
+## 🛠️ Technologies Used
+
+-   **HTML5**
+-   **CSS3**
+
+## 📬 Contact
+
+Feel free to connect:
+
+-   🌐 Portfolio: [jonasfelix.dev](https://jonasfelix.dev)
+-   💼 LinkedIn: [linkedin.com/in/jonasfelix](https://www.linkedin.com/in/jonasfelix)
+-   📧 Email: \[[jonasfelixdesouza21@gmail.com](mailto:jonasfelixdesouza21@gmail.com)]
+
+## 🙌 Acknowledgments
+
+Based on the Frontend Mentor challenge design.
