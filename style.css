@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
     margin: 0;
@@ -10,30 +10,35 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 :root {
     font-size: 62.5%;
     /* Base colors */
-        --main-color: #eb625d;
+    --main-color: #eb625d;
     /* Light Theme */
     --color-1: #fbfdff;
-    --color-2: #ECF3FE;
-    --color-2_2: #EDF7F4;
-    --color-3: #EEEEEE;
-    --font-color: #040B1B;
+    --color-2: #ecf3fe;
+    --color-2_2: #edf7f4;
+    --color-3: #eeeeee;
+    --font-color: #040b1b;
     /* Dark Theme */
-    --dark-color-1: #1F2535;
-    --dark-color-2: #040B1B;
-    --dark-color-2_2: #0A153D;
-    --dark-color-3: #2E3446;
-    --dark-font-color: #ECF3FE;
-
+    --dark-color-1: #1f2535;
+    --dark-color-2: #040b1b;
+    --dark-color-2_2: #0a153d;
+    --dark-color-3: #2e3446;
+    --dark-font-color: #ecf3fe;
 }
 
 #body {
     background: linear-gradient(var(--color-2), var(--color-2_2));
+}
+
+.container {
+    height: 100vh;
+    max-height: 100vh;
+    padding: 1.5rem;
 }
 
 .container,
@@ -47,11 +52,7 @@
     margin: auto;
 }
 
-.container {
-    padding: 1.5rem;
-}
-
-#header, 
+#header,
 .logo-container {
     display: flex;
     align-items: center;
@@ -61,7 +62,7 @@
 #header {
     width: 100%;
     background-color: var(--color-1);
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 1.2rem;
 }
 
@@ -70,12 +71,12 @@
     color: var(--color-5);
 }
 
-#theme-switcher {   
-    background-color: var(--color-3); 
+#theme-switcher {
+    background-color: var(--color-3);
     border: 1px solid var(--color-3);
     width: 4rem;
     height: 4rem;
-    border-radius: .7rem;
+    border-radius: 0.7rem;
 }
 #theme-switcher:hover {
     cursor: pointer;
@@ -94,7 +95,7 @@
     margin-top: 1.5rem;
 }
 
-#nav  li {
+#nav li {
     list-style-type: none;
 }
 
@@ -113,7 +114,7 @@
     color: var(--color-5);
     background-color: var(--color-1);
     border-radius: 2rem;
-    border: 1px solid var(--color-3); 
+    border: 1px solid var(--color-3);
 }
 
 .pill-button:hover {
@@ -123,10 +124,17 @@
 #nav .pill-button-active {
     background-color: var(--main-color);
     border: 1px solid var(--main-color);
-    color: var(--color-2)
+    color: var(--color-2);
+}
+
+main {
+    flex: 1;
 }
 
 #extensions-container {
+    max-height: 90rem;
+    overflow-y: auto;
+    scrollbar-color: var(--main-color) var(--color-1);
     gap: 1rem;
 }
 
@@ -139,7 +147,7 @@
     padding: 1.6rem;
 
     align-items: normal;
-    gap: 2rem;  
+    gap: 2rem;
 }
 
 .extension-data {
@@ -156,7 +164,7 @@
 #remove-extension-button {
     background-color: transparent;
     border: 1px solid var(--color-3);
-    padding: .9rem;
+    padding: 0.9rem;
     border-radius: 1.6rem;
 }
 
@@ -167,7 +175,6 @@
 .extension-data {
     display: flex;
     gap: 1.5rem;
-    
 }
 
 .extension-data img {
@@ -175,20 +182,24 @@
     width: 5rem;
     height: 5rem;
     padding: 1.6rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 }
 
 .extension-info {
     font-size: 1.5rem;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
     accent-color: var(--main-color);
+}
+
+footer {
+    padding: 1rem;
 }
 
 /* Desktop styles */
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .container {
         max-width: 900px;
     }
@@ -208,7 +219,7 @@ input[type=checkbox] {
     .navbar-container,
     #nav,
     main,
-    #extensions-container  {
+    #extensions-container {
         width: 100%;
     }
 
@@ -219,7 +230,7 @@ input[type=checkbox] {
         justify-content: space-between;
     }
 
-    #nav ul  {
+    #nav ul {
         width: auto;
     }
 }

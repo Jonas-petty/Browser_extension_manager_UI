@@ -1,229 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Extensions</title>
-</head>
-<body id="body">
-    <div class="container">
-        <header id="header">
-            <div class="logo-container">
-                <img src="img/logo.png" alt="Extensions logo">
-                <h1>Extensions</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Extensions</title>
+    </head>
+    <body id="body">
+        <div class="container">
+            <header id="header">
+                <div class="logo-container">
+                    <img src="img/logo.png" alt="Extensions logo" />
+                    <h1>Extensions</h1>
+                </div>
+                <button id="theme-switcher">
+                    <img
+                        src="img/dark_mode_icon.png"
+                        alt="Activate Light theme icon"
+                    />
+                </button>
+            </header>
+            <div class="navbar-container">
+                <nav id="nav">
+                    <h2>Extensions List</h2>
+                    <ul>
+                        <li>
+                            <button class="pill-button pill-button-active">
+                                All
+                            </button>
+                        </li>
+                        <li><button class="pill-button">Active</button></li>
+                        <li><button class="pill-button">Inactive</button></li>
+                    </ul>
+                </nav>
             </div>
-            <button id="theme-switcher"><img src="img/dark_mode_icon.png" alt="Activate Light theme icon"></button>
-        </header>
-        <div class="navbar-container">
-            <nav id="nav">
-                <h2>Extensions List</h2>
-                <ul>
-                    <li><button class="pill-button pill-button-active">All</button></li>
-                    <li><button class="pill-button">Active</button></li>
-                    <li><button class="pill-button">Inactive</button></li>
-                </ul>
-            </nav>
-        </div>
-        <main>
-            <section id="extensions-container">
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="DevLens icon">
+            <main>
+                <section id="extensions-container">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="DevLens icon" />
                             <div class="extension-info">
                                 <h3>DevLens</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="StyleSpy icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="StyleSpy icon" />
                             <div class="extension-info">
                                 <h3>StyleSpy</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="SpeedBoost icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="SpeedBoost icon" />
                             <div class="extension-info">
                                 <h3>SpeedBoost</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="JSONWizard icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="JSONWizard icon" />
                             <div class="extension-info">
                                 <h3>JSONWizard</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="TabMaster Pro icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="TabMaster Pro icon" />
                             <div class="extension-info">
                                 <h3>TabMaster Pro</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="ViewportBuddy icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
                             <div class="extension-info">
                                 <h3>ViewportBuddy</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="JSONWizard icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="JSONWizard icon" />
                             <div class="extension-info">
                                 <h3>JSONWizard</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="TabMaster Pro icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="TabMaster Pro icon" />
                             <div class="extension-info">
                                 <h3>TabMaster Pro</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="ViewportBuddy icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
                             <div class="extension-info">
                                 <h3>ViewportBuddy</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="JSONWizard icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="JSONWizard icon" />
                             <div class="extension-info">
                                 <h3>JSONWizard</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="TabMaster Pro icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="TabMaster Pro icon" />
                             <div class="extension-info">
                                 <h3>TabMaster Pro</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
-                    </div>
-                </div>
-                <div class="extension">
-                    <div class="extension-data">
-                        <img src="#" alt="ViewportBuddy icon">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
                             <div class="extension-info">
                                 <h3>ViewportBuddy</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
                             </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                    <div class="extension-actions">
-                        <button id="remove-extension-button">
-                            Remove
-                        </button>
-                        <!--Placeholder button (Change to Toggle when possible)-->
-                        <input type="checkbox" name="extension-checkbox" id="">
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
+                            <div class="extension-info">
+                                <h3>ViewportBuddy</h3>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
                     </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            Developed by Jonas Felix
-        </footer>
-    </div>
-</body>
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
+                            <div class="extension-info">
+                                <h3>ViewportBuddy</h3>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
+                    </div>
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
+                            <div class="extension-info">
+                                <h3>ViewportBuddy</h3>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
+                    </div>
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
+                            <div class="extension-info">
+                                <h3>ViewportBuddy</h3>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
+                    </div>
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
+                            <div class="extension-info">
+                                <h3>ViewportBuddy</h3>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
+                    </div>
+                    <div class="extension">
+                        <div class="extension-data">
+                            <img src="#" alt="ViewportBuddy icon" />
+                            <div class="extension-info">
+                                <h3>ViewportBuddy</h3>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="extension-actions">
+                            <button id="remove-extension-button">Remove</button>
+                            <!--Placeholder button (Change to Toggle when possible)-->
+                            <input
+                                type="checkbox"
+                                name="extension-checkbox"
+                                id=""
+                            />
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>Developed by Jonas Felix</footer>
+        </div>
+    </body>
 </html>
